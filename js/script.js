@@ -71,7 +71,7 @@ for (var i = 0; i < zucchine.length; i++){
     
 };
 
-console.log(sommaPeso);
+console.log('peso totale zucchine:', sommaPeso);
 
 
 //ES.2
@@ -135,10 +135,10 @@ var zucchine = [
 //console.log(zucchine);
 
 arrayMaggiore15 = [];
-console.log(arrayMaggiore15);
+console.log('arrayMaggiore15:', arrayMaggiore15);
 
 arrayMinore15 = [];
-console.log(arrayMinore15);
+console.log('arrayMinore15:', arrayMinore15);
 
 
 
@@ -164,7 +164,7 @@ for ( var j = 0; j < arrayMaggiore15.length; j++){
     sommaPesoMag = sommaPesoMag + pesoMag;
 
 };
-console.log(sommaPesoMag);
+console.log('peso tot arrayMag15:', sommaPesoMag);
 
 
 var sommaPesoMin = 0;
@@ -178,4 +178,4 @@ for ( var k = 0; k < arrayMinore15.length; k++){
     sommaPesoMin = sommaPesoMin + pesoMin;
 
 };
-console.log(sommaPesoMin);
+console.log('peso tot arrayMin15:', sommaPesoMin);
